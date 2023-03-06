@@ -10,16 +10,21 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "publish-packages": "turbo run publish-packages",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "changesets": "^1.0.2",
+    "eslint": "^8.35.0",
     "eslint-config-custom": "*",
-    "prettier": "latest",
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.4",
     "turbo": "latest"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
   "packageManager": "npm@9.1.1"
 }

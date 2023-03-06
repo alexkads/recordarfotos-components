@@ -11,6 +11,9 @@
     },
     "dev": {
       "cache": false
+    },
+    "publish-packages": {
+      "cache": false
     }
   }
 }
