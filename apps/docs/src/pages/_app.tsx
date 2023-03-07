@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 // include styles from the ui package
-import "recordarfotos-ui/styles.css";
+import "recordarfotos-ui/dist/index.css";
 
 import type { AppProps } from "next/app";
 
