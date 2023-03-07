@@ -1,7 +1,5 @@
 node_modules
 src
-__tests__
-yarn-error.log
 coverage
 .storybook
 .editorconfig
@@ -13,6 +11,7 @@ jest.config.js
 prettier.config.js
 scripts.md
 tsconfig.json
+postcss.config.js
 tailwind.config.js
 tsup.config.ts
 .changeset

@@ -7,6 +7,8 @@ export default defineConfig((options: Options) => ({
   format: ["cjs"],
   dts: true,
   minify: true,
+  removeComments: true,
+  removeConsole: true,
   clean: false,
   external: ["react"],
   ...options,
