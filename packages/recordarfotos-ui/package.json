@@ -1,15 +1,29 @@
 {
   "name": "recordarfotos-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "sideEffects": [
     "**/*.css"
   ],
   "types": "./dist/index.d.ts",
+  "main": "dist/index.mjs",
   "exports": {
     ".": "./dist",
     "./styles.css": "./dist/index.css"
   },
   "license": "MIT",
+  "keywords": [
+    "React",
+    "Components",
+    "react-components",
+    "library",
+    "tailwindcss",
+    "ux"
+  ],
+  "author": "Alex S S Fonseca",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexkads/recordarfotos-components/tree/main/packages/recordarfotos-ui"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
