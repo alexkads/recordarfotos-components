@@ -1,11 +1,13 @@
 {
   "name": "recordarfotos-ui",
-  "version": "0.0.6",
+  "description": "React components with tailwindcss for RecordarFotos",
+  "version": "0.0.7",
   "sideEffects": [
     "**/*.css"
   ],
   "types": "./dist/index.d.ts",
   "main": "dist/index.js",
+  "style": "dist/index.css",
   "files": [
     "dist/**"
   ],
